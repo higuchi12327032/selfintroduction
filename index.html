@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #00aadd;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .header-text {
+            flex: 1;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #fff;
+            margin: 0;
+            padding-left: 10px;
+        }
+
+        .profile-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+        }
+
+        .main-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .tweet-content {
+            font-size: 18px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .tweet-meta {
+            font-size: 14px;
+            color: #888;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .animated-text {
+            font-size: 24px;
+            color: #ff6600;
+            animation: moveText 3s ease-in-out infinite;
+        }
+
+        @keyframes moveText {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-text">
+                <img class="profile-image" src="PC.jpg" alt="プロフィール画像">
+                <h1>Higuchi Sora</h1>
+            </div>
+            <img src="TL.png" alt="Twitter風ヘッダー画像">
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="tweet-content">
+            はじめまして！京都芸術大学クロステックデザインコースのHiguchi Soraです。動画編集が得意です。よろしくお願いします！
+        </div>
+        <div class="tweet-meta">
+            2時間前 • いいね 15 • リツイート 8
+        </div>
+        <div class="tweet-content">
+            フリーランスでクライアントから動画編集の仕事を請け負っています！Youtubeには無数に私の作品が転がっています！
+        </div>
+        <div class="tweet-meta">
+            5時間前 • いいね 25 • リツイート 12
+        </div>
+        <div class="tweet-content">
+            お仕事のご依頼や質問があればお気軽にDMしてください。一緒に素敵な作品を作りましょう！🚀
+        </div>
+        <div class="tweet-meta">
+            10時間前 • いいね 30 • リツイート 18
+        </div>
+        <p class="animated-text">Welcome to my X parody page!</p>
+        <img src="davince_resolve.jpg" alt="Twitter風パロディ画像">
+    </div>
+</body>
+
+</html>
